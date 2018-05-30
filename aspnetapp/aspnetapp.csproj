@@ -12,8 +12,8 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" />
   </ItemGroup>
    <Target Name="Build">  
-        <MSBuild Projects="a1.sln..." Properties="Configuration=Debug"/>  
-        <MSBuild Projects="a2.sln" Properties="Configuration=Release"/>  
+        <MSBuild Projects="todo.sln..." Properties="Configuration=Debug"/>  
+        <MSBuild Projects="todo.sln" Properties="Configuration=Release"/>  
     </Target>  
 
 </Project>
